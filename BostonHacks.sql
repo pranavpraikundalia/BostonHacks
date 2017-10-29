@@ -142,3 +142,12 @@ Insert into specialization Values('+919987874666','21');
 Insert into schedule Values('+16179552483','Sun','00','00','05','00');
 Insert into schedule Values('+18572058079','Sun','10','00','17','00');
 Insert into schedule Values('+919987874666','Sun','10','00','17','00');
+
+Insert into virtual_assistant Values('+16178299091','Hardik Shah','1187 Boylston Street,Boston, MA 02215');
+Insert into schedule Values('+16178299091','Sun','10','00','17','00');
+Insert into specialization Values('+16178299091','1');
+Insert into specialization Values('+16178299091','2');
+Insert into specialization Values('+16178299091','3');
+Insert into specialization Values('+16178299091','4');
+Insert into specialization Values('+16178299091','5');
+Insert into specialization Values('+16178299091','6');
