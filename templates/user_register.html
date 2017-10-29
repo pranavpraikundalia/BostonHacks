@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Register</title>
+</head>
+<body>
+<h4>Register as a User</h4>
+<form action="{{ url_for('register',data='user') }}" method="POST" enctype="multipart/form-data">
+    Phone Number : <input type="text" name="u_id" required><br>
+    Name :  <input type="text" name="user_name" required><br>
+    {% for i in cat %}
+    <input type="checkbox" name="categories" value="{{ i[0] }}">{{ i[1] }}<br>
+    {% endfor %}
+
+    <input type="Submit" name="Submit" value="Submit">
+</form>
+</body>
+</html>
